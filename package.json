@@ -3,13 +3,13 @@
   "version": "1.0.1",
   "description": "A boilerplate for building a fast static website with the Eleventy static site generator, for deployment to Netlify.",
   "scripts": {
-    "build": "npx eleventy",
-    "watch": "npx eleventy --watch",
-    "debug": "DEBUG=* npx eleventy"
+    "build": "npm eleventy",
+    "watch": "npm eleventy --watch",
+    "debug": "DEBUG=* npm eleventy"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/mtclmn/11ty-boilerplate"
+    "url": "https://github.com/mtclmn/eleventy-netlify-boilerplate"
   },
   "author": {
     "name": "Matt Coleman",
