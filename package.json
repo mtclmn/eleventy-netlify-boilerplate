@@ -1,0 +1,31 @@
+{
+  "name": "e11ty boilerplate",
+  "version": "1.0.1",
+  "description": "A boilerplate for building a fast static website with the Eleventy static site generator, for deployment to Netlify.",
+  "scripts": {
+    "build": "npx eleventy",
+    "watch": "npx eleventy --watch",
+    "debug": "DEBUG=* npx eleventy"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mtclmn/11ty-boilerplate"
+  },
+  "author": {
+    "name": "Matt Coleman",
+    "email": "mtclmn@gmail.com",
+    "url": "https://mtcl.mn"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@11ty/eleventy": "^0.5.0",
+    "luxon": "^1.0.0",
+    "markdown-it": "^8.4.1",
+    "markdown-it-anchor": "^4.0.0"
+  },
+  "dependencies": {
+    "clean-css": "^4.1.11",
+    "html-minifier": "^3.5.19",
+    "uglify-js": "^3.4.5"
+  }
+}
